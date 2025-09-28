@@ -1,14 +1,11 @@
 {
-  "name": "luckytechhub-stats-panel",
+  "name": "luckytechhub-hosting-panel",
   "version": "1.0.0",
-  "description": "Lightweight Express statistics panel for LuckyTechHub Bot",
+  "description": "Node.js Bot Hosting Server Panel",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "NODE_ENV=development node server.js"
+    "start": "node server.js"
   },
-  "author": "Tomi Lucky",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "ejs": "^3.1.9",
