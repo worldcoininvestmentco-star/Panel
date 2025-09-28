@@ -1,0 +1,20 @@
+{
+  "name": "luckytechhub-stats-panel",
+  "version": "1.0.0",
+  "description": "Lightweight Express statistics panel for LuckyTechHub Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "author": "Tomi Lucky",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "socket.io": "^4.7.2",
+    "express-session": "^1.17.3",
+    "body-parser": "^1.20.2",
+    "node-fetch": "^3.4.1"
+  }
+}
